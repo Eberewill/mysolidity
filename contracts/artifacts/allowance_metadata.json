@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addrOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_addrSpender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "allow",
+						"type": "uint256"
+					}
+				],
+				"name": "addAllowance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "allowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addrOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_addrSpender",
+						"type": "address"
+					}
+				],
+				"name": "getAllowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addrOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_addrSpender",
+						"type": "address"
+					}
+				],
+				"name": "remove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/spenderAssignment.sol": "allowance"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/spenderAssignment.sol": {
+			"keccak256": "0x6f8b32ee26338bed331a99c5bba253fa55c0d8c2a2ceeea5facff4a34017fda7",
+			"urls": [
+				"bzz-raw://29587ae3caf725e59e4731719280fefc8714f07e0011bad7307f9f804812fc3c",
+				"dweb:/ipfs/QmWdRrH2VUcQSKBcsAcwnyutszNgQx3wRbxLEcL2kVtMPP"
+			]
+		}
+	},
+	"version": 1
+}

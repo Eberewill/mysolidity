@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getDefaultColor",
+				"outputs": [
+					{
+						"internalType": "enum EnumsPracice.colour",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFavourite",
+				"outputs": [
+					{
+						"internalType": "enum EnumsPracice.colour",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setRed",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/enums.sol": "EnumsPracice"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/enums.sol": {
+			"keccak256": "0x102619a7a21ec1025383e2a90428773ac7e586e2fe18fe464c03715d1de1a262",
+			"urls": [
+				"bzz-raw://e63e47dccc064b07b16ddddfa9d6e6dade76c4af4548fa39802ad5406f856d91",
+				"dweb:/ipfs/QmR5hwcRJjy9UH5NZo7CHYVqa7QawrBx2YcXQd8YgdsSF6"
+			]
+		}
+	},
+	"version": 1
+}

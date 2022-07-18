@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "airDrop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/defi.sol": "defiContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/defi.sol": {
+			"keccak256": "0x75bf466b4926de90b9b225c2148764d397c03fa11460483da524f97dc63c8655",
+			"urls": [
+				"bzz-raw://ca24f59ff2d4742e4e178919f7f56eea941b14b69845f71a6f230540d5bb6971",
+				"dweb:/ipfs/QmaPCY6arSWwDcYgW7S8r21n2RSpiDukMMbJPnEzBmVMMU"
+			]
+		}
+	},
+	"version": 1
+}

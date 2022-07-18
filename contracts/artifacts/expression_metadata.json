@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "multiplyAandB",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/expression.sol": "expression"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/expression.sol": {
+			"keccak256": "0x49928c74a152983cd1d495c840980406f92601031f70b51e3dfd7b24be14b7ea",
+			"urls": [
+				"bzz-raw://575c0de1fb691a332ea70e1cf3c92d5b21de6786fc573d6e4291e4b292a1bea9",
+				"dweb:/ipfs/QmRUJXd1S65PcTP9LXXd1XYeMK3zcpUbpz2pHno43s7AJe"
+			]
+		}
+	},
+	"version": 1
+}
